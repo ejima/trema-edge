@@ -4,10 +4,11 @@ script: "rake spec"
 
 rvm:
   - 2.0.0
+  - 2.1.1
 
 branches:
   only:
-    - master
+    - develop
 
 before_install:
  - sudo apt-get update -qq
